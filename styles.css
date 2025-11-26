@@ -28,7 +28,7 @@ body {
     align-items: center;
 }
 
-#header-links a, .hero-text p, .sing-up {
+#header-links a, .hero-text p, .sign-up {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
@@ -41,46 +41,41 @@ body {
 }
 
 .hero {
-    box-sizing: content-box;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     padding: 60px 10vw;
-    align-items: center;
-    height: 30vw;
-    gap: 30px;
 }
 
-.hero h1 {
-    margin: 0;
+.hero > div {
+    flex: 0 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: auto;
+    gap: 7px;
+}
+
+.hero-text > h1 {
     font-size: 48px;
     font-weight: 900;
 }
 
-.hero .placeholder, .hero-text {
-    height: 300px;
+.hero .placeholder {
+    flex: 1;
+    background-color: rgb(102, 107, 117);
 }
 
-.hero img {
-    height: 100%;
-}
-
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.hero .sign-up {
-    background-color: #3882F6;
-    padding: 5px 20px;
-    color: #E5E7EB;
-    border-radius: 5px;
-    border: none;
-}
-
-.placeholder > p {
+.image-div > p {
     font-size: small;
+}
+
+.hero button {
+    padding: 6px 25px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 700;
 }
