@@ -44,7 +44,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 60px 10vw;
+    padding: 80px 10vw 130px 10vw;
 }
 
 .hero > div {
@@ -93,6 +93,7 @@ body {
 .info {
     flex-direction: column;
     padding: 40px 20vw;
+    margin-bottom: 60px;
 }
 
 .info > div {
@@ -124,4 +125,26 @@ body {
 
 .info p {
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 400px;
+    gap: 20px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+    text-align: end;
+    font-weight: 900;
+    padding-right: 20px;
+    font-size: x-large;
 }
