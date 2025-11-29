@@ -74,7 +74,7 @@ body {
     font-size: small;
 }
 
-.hero button {
+.sign-up {
     padding: 6px 25px;
     background-color: #3882F6;
     border: none;
@@ -155,4 +155,26 @@ body {
     align-items: center;
     padding: 40px;
     font-size: large;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 80px 20vw;
+}
+
+.call-to-action > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    width: 100%;
+}
+
+.call-to-action .sign-up {
+    border: 2px solid #E5E7EB;
 }
